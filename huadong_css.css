@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-5-2, 10:53:55
+    Author     : ADMINISTRATOR
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    border: none;
+}
+body { background: #ececec; padding-top: 50px; }
+
+#automatic{
+    
+    width: 970px; 
+    height: 344px; 
+    position: relative; 
+    margin: 90px auto; 
+    overflow: hidden; 
+}
+#automatic .prev_frame{
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    left: 100px;
+    top: 100px;
+}
+#automatic .next_frame{
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    right: 100px;
+    top: 100px;
+}
+#automatic .prev{
+    width: 76px;
+    height: 112px;
+    z-index: 10;
+    background: url('images/prev.png') no-repeat center;
+    position: absolute;
+    width: 76px;
+    height: 112px;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+#automatic .prev_text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 106px;
+    height: 112px;
+    background: url('images/prev_txt.png') no-repeat center;
+    z-index: 10;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}
+#automatic .next{
+    width: 76px;
+    height: 112px;;
+    z-index: 10;
+    background: url('images/next.png') no-repeat center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+#automatic .next_text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 106px;
+    height: 112px;
+    background: url('images/next_txt.png') no-repeat center;
+    z-index: 10;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}
+#automatic ul{
+    width: 970px;
+    height: 344px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#automatic li{
+    position: absolute;
+}
+#automatic .pos_0 { width: 100px; height: 56px; top: -104px; left: 0; z-index: 1; filter: alpha(opacity=0); opacity: 0; }
+#automatic .pos_1 { top: 104px; left: 0; z-index: 2; filter: alpha(opacity=60); opacity: 0.6; width: 270px; height: 124px;}
+#automatic .pos_2 { top: 43px; left: 50px; z-index: 3; filter: alpha(opacity=80); opacity: 0.8; width: 510px; height: 263px;}
+#automatic .pos_3 { top: 0; left: 145px; z-index: 4; width: 680px; height: 349px;}
+#automatic .pos_4 { top: 43px; left: 410px; z-index: 3; filter: alpha(opacity=80); opacity: 0.8; width: 510px; height: 263px;}
+#automatic .pos_5 { top: 104px; left: 750px; z-index: 2; filter: alpha(opacity=60); opacity: 0.6; width: 270px; height: 124px;}
+#automatic .pos_6 { top: -104px; left: 750px; z-index: 1; filter: alpha(opacity=0); opacity: 0; width: 270px; height: 124px;}
+#automatic .pos_0 img{
+    width: 100px;
+    height: 56px;
+}
+#automatic .pos_1 img{
+    width: 270px;
+    height: 124px;
+}
+#automatic .pos_2 img{
+    width: 510px;
+    height: 263px;
+}
+#automatic .pos_3 img{
+    width: 680px;
+    height: 349px;
+}
+#automatic .pos_4 img{
+    width: 510px;
+    height: 263px;
+}
+#automatic .pos_5 img{
+    width: 270px;
+    height: 124px;
+}
+#automatic .pos_6 img{
+    width: 270px;
+    height: 124px;
+}
